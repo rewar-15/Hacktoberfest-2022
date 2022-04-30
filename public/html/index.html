@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home | Microsoft Teams</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+  <style>
+    body {}
+
+    button:focus {
+      border-style: none;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    .container {
+      display: inline;
+      width: 40vw;
+      position: absolute;
+      left: 50vw;
+      top: 40vh;
+    }
+
+    .classConfusedMan {
+      width: 25vw;
+      height: 50vh;
+      margin-top: 25px;
+      margin-left: 250px;
+      float: left;
+      /* height: 400px; */
+    }
+
+    .card:hover {
+      background-color: #ebebeb;
+      color: #6264a7;
+    }
+
+    .card {
+      color: #ebebeb;
+    }
+
+    .card b {
+      color: rebeccapurple;
+      font-weight: 600;
+    }
+
+    .card i {
+      color: rebeccapurple;
+    }
+
+    .callInstruction {
+      float: left;
+      width: 120px;
+      height: 30px;
+      margin-left: 25px;
+      margin-right: 10px;
+    }
+
+    .card-body {
+      padding: 20px 0px 20px 0px;
+    }
+
+    .card-header {
+      border-width: 0px;
+      background-color: #ebebeb;
+    }
+
+    .confusedEmoji {
+      top: 90px;
+      left: 1050px;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+  </style>
+</head>
+
+<body class="instructions">
+  <div class="topnav">
+    <img src="images/logo-white.png" alt="msteams image">
+    <a class="active home" href="/">Home <i class="fa fa-home"></i></a>
+    <a href="/call">Call <i class="fas fa-phone-alt"></i></a>
+    <a href="/logout" style="float: right;">logout <i class="fa fa-sign-out"></i></a>
+
+  </div>
+  <h1 class="headingIns">Instructions for <i class="fas fa-users"></i> to start</h1>
+  <img class="classConfusedMan" src="images/confused_man.png" alt="">
+  <div class="container">
+    <div id="accordion">
+      <!-- first toogle line -->
+      <div class="card">
+        <button class="card-header collapsed card-link" data-toggle="collapse" data-target="#collapseOne">
+          <b class="header-title float-left">Starting the Call</b>
+          <i class="fas fa-plus float-right "></i>
+        </button>
+
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <img class="callInstruction" src="images/instructions/call_instruction.png">
+            Go to call in the navigation bar and select the button stating start a new call.
+          </div>
+        </div>
+      </div>
+      <!-- second toggle line -->
+      <div class="card">
+        <button class="card-header collapsed card-link" data-toggle="collapse" data-target="#collapseTwo">
+          <b class="header-title float-left">Sharing the link</b>
+          <i class="fas fa-plus float-right "></i>
+        </button>
+
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <img class="callInstruction" src="images/instructions/copy_instruction.png">
+            To add someone in the call, select call-invite button, copy the link from there and send it to that person.
+          </div>
+        </div>
+      </div>
+      <!-- third toggle line -->
+      <div class="card" style="display: flex;">
+        <button class="card-header collapsed card-link" data-toggle="collapse" data-target="#collapseFour">
+          <b class="header-title float-left">Toggle Audio/Video</b>
+          <i class="fas fa-plus float-right "></i>
+        </button>
+        <div id="collapseFour" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <img class="callInstruction" src="images/instructions/togglingVideo.png">
+            Using buttons you can start/stop the audio and video
+          </div>
+        </div>
+      </div>
+      <!-- fourth toggle line -->
+      <div class="card" style="display: flex;">
+        <button class="card-header collapsed card-link" data-toggle="collapse" data-target="#collapseThree">
+          <b class="header-title float-left">Chatting alongwith Call</b>
+          <i class="fas fa-plus float-right "></i>
+        </button>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <img class="callInstruction" src="images/instructions/chat_instruction.png">
+            Use this block to chat during video call !!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" charset="utf-8"></script>
+  <script>
+    $('.card-header').click(function() {
+      $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+    });
+  </script>
+</body>
+
+</html>

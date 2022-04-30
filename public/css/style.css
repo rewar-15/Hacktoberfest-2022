@@ -1,0 +1,99 @@
+
+img {
+  margin-left: 100px;
+  float: left;
+}
+
+h2 {
+  font-size: 2.0vw;
+}
+
+.CallImage {
+  position: absolute;
+  width: 50vw;
+  margin-left: 48vw;
+  margin-top: -40vh;
+}
+.VideoCallDiv {
+  margin-left: 100px;
+  margin-top: 150px;
+}
+.WritingChange {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 100;
+  color: rebeccapurple;
+  margin-top: 30vh;
+  width: 40vw;
+  margin-left: 10vw;
+}
+.InnerCss {
+  font-family: sans-serif;
+  background-color: #6264a7;
+  margin-left: 25vw;
+  margin-top: 10vh;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #6264a7
+}
+body {
+  margin: 0px;
+}
+.CallBody {
+  background-color: #ebebeb;
+}
+
+.home {
+  margin-left: 300px;
+}
+
+.topnav {
+  background-color: #6264a7;
+  overflow: hidden;
+  padding-top: 8px;
+  font-family: cursive;
+}
+
+
+.topnav a {
+  font-family:  sans-serif;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  margin-right: 50px;
+  font-weight: bolder;
+}
+
+
+.topnav a:hover {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+
+.topnav a.active {
+  color: #F7DBF0;
+  /* color: white; */
+}
+.home {
+  margin-left: 300px;
+}
+.instructions {
+  background-color: #ebebeb;
+}
+
+.headingIns {
+  text-align: center;
+  font-family: serif;
+  margin-top: 40px;
+  color: rebeccapurple;
+}
+
+.crumina-accordion {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
